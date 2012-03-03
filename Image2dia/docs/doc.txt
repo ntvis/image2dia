@@ -1,0 +1,29 @@
+ Documentation
+ ==========
+ 
+ Import the object with:
+ 
+ from image2dia import image2dia.Image2Dia
+ 
+ * addImage(image, sheet)
+ -----------------------------------------
+     Adds the image in the especified sheet. If there are some unrecoverable 
+     error the module throws an Image2DiaError 
+ 
+ * getVersion()
+ ---------------------------------------
+     Returns the version of the module
+     
+ * listSheets(w)
+ -----------------------------------------
+    Gives the user ("USER") or ("SYSTEM") sheets list of the current installation
+    
+ * listAllSheets()
+ -----------------------------------------
+    Returns all sheets in the system
+ 
+ * checkFiles(shapeFile, sheetFile)
+ -------------------------------------------------------------------
+    Checks if the creation of the shape and the sheet it's possible
+    
+    If its impossible to create the shape throws an Image2DiaError
